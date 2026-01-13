@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(48, 153, 214, 0.384);
+}
+
+.om-mig-själv {
+    padding: 8px;
+    position: relative;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+}
+
+.rubrik-01 {
+    padding: 60px;
+    font-size: 4rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.mina-intressen {
+    text-align: center;
+    font-size: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.blender {
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+}
+
+.rubrik {
+    text-align: center;
+    font-size: 8rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+li {
+    list-style: none;
+}
