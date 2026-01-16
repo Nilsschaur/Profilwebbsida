@@ -1,28 +1,35 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: rgba(48, 153, 214, 0.384);
+    background-color: rgb(255, 255, 255);
+}
+
+.Name {
+    background-color: rgba(96, 176, 223, 0);
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .om-mig-själv {
+    background-color: rgba(80, 80, 80, 0.295);
+    border-radius: 15px;
     padding: 8px;
     position: relative;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 1.5rem;
 }
 
 .rubrik-01 {
-    padding: 60px;
+    padding: 32px;
     font-size: 4rem;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .mina-intressen {
-    text-align: center;
-    font-size: 1rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .blender {
@@ -30,14 +37,26 @@
     margin: auto;
     display: flex;
     padding: 20px;
+    background-color: rgba(80, 80, 80, 0.295);
 }
 
 .rubrik {
     text-align: center;
     font-size: 8rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: -30px;
 }
 
 li {
     list-style: none;
+    background-color: rgba(80, 80, 80, 0);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+
+ul {
+    background-color: rgba(80, 80, 80, 0.295);
+    border-radius: 15px;
 }
