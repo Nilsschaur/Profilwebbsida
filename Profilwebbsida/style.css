@@ -4,6 +4,14 @@
     background-color: rgba(156, 156, 156, 0.744);
 }
 
+.navigering {
+    text-align: center;
+}
+
+a {
+    justify-items: space-around;
+}
+
 .Name {
     background-color: rgba(96, 176, 223, 0);
     font-size: 1.5rem;
@@ -31,7 +39,6 @@ body {
 
 .om-mig-själv {
     background-color: rgba(80, 80, 80, 0.295);
-    border-radius: 15px;
     padding: 8px;
     position: relative;
     text-align: center;

@@ -3,6 +3,7 @@ function toggleDarkMode(){
 
     if(document.body.classList.contains("dark")){
         localStorage.setItem("theme", "dark");
+        localStorage.setItem("lastVisit", Date.now());
     }else{
         localStorage.setItem("theme", "light");
     }
@@ -18,3 +19,16 @@ function loadTheme(){
 }
 
 loadTheme();
+
+const One_MINUTE= 1000 * 60 * 1;
+
+const lastVisit = localStorage.getItem("lastVisit");
+if (lastVisit) {
+    const now = Date.now();
+    const timePassed = now - lastVisit;
+
+    if (timePassed > One_MINUTE) {
+        localStorage.removeItem("theme");
+        localStorage.removeItem("lastVisit");
+    }
+}
