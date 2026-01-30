@@ -20,6 +20,8 @@ function loadTheme(){
 
 loadTheme();
 
+window.onload = loadTheme();
+
 const One_MINUTE= 1000 * 60 * 1;
 
 const lastVisit = localStorage.getItem("lastVisit");
@@ -32,3 +34,4 @@ if (lastVisit) {
         localStorage.removeItem("lastVisit");
     }
 }
+

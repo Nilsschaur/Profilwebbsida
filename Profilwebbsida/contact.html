@@ -1,21 +1,43 @@
-<!DOCTYPE html>
-<html lang="sv">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<!DOCTYPE html> 
 
-    <link rel="stylesheet" href="style.css"/>
+<html lang="sv"> 
 
-    <script src="index.js" defer></script>
-</head>
+<head> 
+
+  <meta charset="UTF-8"> 
+
+  <title>Kontaktformulär</title> 
+
+  <script src="script.js" defer></script> 
+
+</head> 
+
 <body>
-
+    
     <nav class="navigering">
         <a href="index.html">Hem</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Kontakt</a>
     </nav>
-    
-</body>
-</html>
+
+ <h1>Kontakta mig</h1> 
+
+<form id="contactForm"> 
+
+  <label for="name">Namn:</label> 
+
+  <input type="text" id="name" placeholder="Ditt namn"> 
+ 
+
+  <label for="message">Meddelande:</label> 
+
+  <textarea id="message" placeholder="Skriv ditt meddelande här"></textarea> 
+
+  <button type="submit">Skicka</button> 
+</form> 
+
+<p id="success"></p> 
+
+</body> 
+
+</html> 
